@@ -1,0 +1,64 @@
+body {
+font-family: 'Poppins', sans-serif;
+background: linear-gradient(135deg, #4e73df, #224abe);
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Card Styling */
+
+.card {
+border-radius: 15px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+padding: 10px;
+}
+
+/* Button Styling */
+
+.btn-primary {
+background: #4e73df;
+border: none;
+transition: 0.3s;
+}
+
+.btn-primary:hover {
+background: #2e59d9;
+transform: translateY(-2px);
+}
+
+/* Form Input Styling */
+
+.form-control {
+border-radius: 10px;
+padding: 10px;
+}
+
+/* Link Styling */
+
+a {
+text-decoration: none;
+color: #4e73df;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* Dashboard Styling */
+
+.navbar {
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-card {
+padding: 30px;
+text-align: center;
+}
+
+/* Smooth Transition */
+
+* {
+transition: all 0.3s ease;
+}
